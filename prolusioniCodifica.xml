@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prolusioni3.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>            
+            <titleStmt> <!-- Titolo, autore e responsabilità del contenuto del file-->
+                <title type="main">Trois premières conférences à l'Université </title>               
+                <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+                <author xml:id="FDS" role="author">Ferdinand de Saussure</author>
+                <respStmt>                    
+                    <resp>Traduzione di</resp>
+                    <name ref="#EF">Emanuele Fadda</name>
+                </respStmt>
+                <respStmt>                   
+                    <resp>Codifica realizzata da</resp>
+                    <name ref="#LL">Lucrezia Labardi</name>
+                    <name ref="#LT">Luca Tosolini</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>  <!--Informazioni sull'edizione digitale del testo-->
+                <edition>
+                    Edizione digitale realizzata nel
+                    <date when="2022-06"> giugno 2022 </date>
+                </edition>
+                <respStmt>
+                    <resp>Testo codificato da: </resp>
+                    <name xml:id="LL">Lucrezia Labardi </name>
+                    <name xml:id="LT">Luca Tosolini </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Progetto universitario gestito da: </resp>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>  <!--Informazioni sulla pubblicazione dell'edizione digitale-->
+                <publisher> Università di Pisa </publisher>
+                <pubPlace>Pisa, PI</pubPlace>
+                <address>
+                    <postCode>56127</postCode>
+                    <name>Italia</name>
+                </address>
+                <availability>
+                    <p>Opera ad accesso libero</p>
+                </availability>
+                <date when="2022-06">Giugno 2022</date>
+            </publicationStmt>
+
+            <sourceDesc>  <!--Informazioni sulla fonte originale di cui è stata fatta l'edizione digitale-->
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <institution>Biblioteca di Ginevra</institution>
+                        <repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/111">Biblioteca di Ginevra</repository>
+                        <collection>Archives Ferdinand de Saussure</collection>
+                        <idno type="inventory">BGE Ms. fr. 3951/1.1-3</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <msItem>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">Troisième conférence</title>
+                            <author xml:lang="fr" ref="#FDS">Ferdinand de Saussure</author>
+                            <docDate when="1891-11-13">13/11/1891</docDate>
+                            <textLang mainLang="fr">Francese</textLang>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="manuscript">
+                            <supportDesc>
+                                <support>
+                                    fogli di
+                                    <material>carta</material>
+                                </support>
+                                <extent>
+                                    <measureGrp type="notebook" unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/111">
+                                        <measure quantity="30">30 pagine +</measure>
+                                        <measure quantity="15">15 pagine +</measure>
+                                        <measure quantity="22">22 pagine +</measure>
+                                        <measure quantity="1">1 foglietto</measure>
+                                    </measureGrp>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="25 30">
+                                    <p> Le pagine contengono tra le 25 e le 30 righe scritte a mano. 
+                                    E' assente qualunque tipo di linea stampata nella pagina</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote>
+                                Queste pagine sono state interamente scritte a mano da
+                                <persName ref="#FDS">Ferdinand de Saussure</persName>
+                            </handNote>
+                        </handDesc>
+                        <typeDesc>
+                            <p> Le pagine sono scritte in caratteri corsivi, di comprensione non immediata dato il numero di cancellature e correzioni</p>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <summary>Questo manoscritto si compone di 3 parti, ognuna corrispondente a una prolusione ginevrina.</summary>
+                        <origin>
+                            <p>
+                                Contiene gli appunti scritti da
+                                <persName>Ferdinand De Saussure</persName>
+                                che vennero in parte utilizzati per le prime tre lezioni del corso di fonetica greca e latina 
+                           del
+                                <date when="1891-11-06">6 novembre 1891</date>
+                                , del
+                                <date when="1891-11-10"> 10 novembre 1891</date>
+                                e del
+                                <date when="1891-11-13">13 novembre 1891</date>
+                                presso l'Università di
+                                <placeName>Ginevra</placeName>
+                                .
+                           Probabilmente erano destinati alla pubblicazione di una brochure.
+                            </p>
+                        </origin>
+                    </history>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <textDesc>
+                <channel mode="w">Testo scritto a mano</channel>
+                <constitution type="single" /> <!-- composizione interna del testo-->
+                <derivation type="original" /> <!-- derivazione del testo-->
+                <domain type="education" /> <!-- contesto sociale cui il testo è destinato-->
+                <factuality type="fact" /> <!-- misura in cui il testo può essere considerato aderente alla realtà o di fantasia-->
+                <interaction type="partial" active="singular" passive="group" /> <!-- natura dell'interazione tra chi ha prodotto il testo e chi ne fruisce-->
+                <preparedness type="draft">Testo in redazione quasi finale, con correzioni, cancellature, aggiunte interlineari e frasi incomplete.</preparedness> <!-- livello di compimento-->
+                <purpose type="inform" degree="high" /> <!-- funzione comunicativa del testo-->
+            </textDesc>
+            <settingDesc>
+                <setting>
+                    <p>
+                        Lezione universitaria tenuta da
+                        <persName>Ferdinand De Saussure</persName>
+                        presso l'Università di
+                        <placeName>Ginevra</placeName>
+                        nel
+                        <date when="1891-11">Novembre 1891</date>                        .
+                    </p>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+
+        <encodingDesc>
+            <editorialDecl> <!-- contiene i dettagli sulle scelte editoriali-->
+                <hyphenation eol="some">
+                    <!--come abbiamo gestito la sillabazione (parole che vanno a capo)-->
+                    <p>
+                    Gli indicatori di sillabazione sono stati rimossi dalla codifica. E' stato però inserito un indicatore nell'elemento
+                    <gi>lb</gi> che ha come valore dell'attributo <att>break</att> "no" quando si è verificata la sillabazione.
+                    </p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+
+    </teiHeader>
+
+    <facsimile> <!--rappresentazione della fonte scritta sotto forma di un insieme di immagini o parti di esse-->
+        <surface> <!--PRIMA PAGINA-->
+            <graphic url='codifica_pag1.png' width='529px' height='820px' xml:id="Pag1" />
+            <zone ulx="28" uly="1" lrx="88" lry="44" rendition="hotspot" xml:id="Pag1_num" />
+            <!--paragrafi-->
+            <zone ulx="12" uly="22" lrx="527" lry="430" rendition="paragraph" xml:id="Pag1_par1" />
+            <zone ulx="5" uly="432" lrx="516" lry="818" rendition="paragraph" xml:id="Pag1_par2" />
+            <!--pericopi-->
+            <zone points=' 57,21 59,218 239,218 240,178 517,189 528,18 ' xml:id="P1_p1" />
+            <zone points=' 226,178 226,211 16,209 18,433 515,433 515,185 ' xml:id="P1_p2" />
+            <zone points=' 5,434 4,658 391,653 390,621 511,623 516,429 ' xml:id="P1_p3" />
+            <zone points=' 390,620 389,650 5,654 7,724 514,722 515,619 ' xml:id="P1_p4" />
+            <zone points=' 29,718 511,715 510,819 31,817 ' xml:id="P1_p5" />
+            <zone ulx="25" uly="717" lrx="507" lry="817" xml:id="P1_p6" />
+            <!--linee di testo-->
+            <zone ulx="94" uly="20" lrx="527" lry="72" rendition="line" xml:id="P1_l1" />
+            <zone ulx="58" uly="53" lrx="525" lry="101" rendition="line" xml:id="P1_l2" />
+            <zone ulx="55" uly="86" lrx="514" lry="132" rendition="line" xml:id="P1_l3" />
+            <zone ulx="60" uly="118" lrx="515" lry="161" rendition="line" xml:id="P1_l4" />
+            <zone ulx="62" uly="148" lrx="516" lry="189" rendition="line" xml:id="P1_l5" />
+            <zone ulx="63" uly="177" lrx="500" lry="217" rendition="line" xml:id="P1_l6" />
+            <zone ulx="70" uly="215" lrx="518" lry="253" rendition="line" xml:id="P1_l7" />
+            <zone ulx="68" uly="245" lrx="515" lry="281" rendition="line" xml:id="P1_l8" />
+            <zone ulx="56" uly="273" lrx="512" lry="305" rendition="line" xml:id="P1_l9" />
+            <zone ulx="62" uly="297" lrx="514" lry="333" rendition="line" xml:id="P1_l10" />
+            <zone ulx="60" uly="329" lrx="511" lry="362" rendition="line" xml:id="P1_l11" />
+            <zone ulx="72" uly="361" lrx="510" lry="397" rendition="line" xml:id="P1_l12" />
+            <zone ulx="72" uly="394" lrx="391" lry="427" rendition="line" xml:id="P1_l13" />
+            <zone ulx="123" uly="427" lrx="505" lry="461" rendition="line" xml:id="P1_l14" />
+            <zone ulx="67" uly="453" lrx="509" lry="491" rendition="line" xml:id="P1_l15" />
+            <zone ulx="71" uly="489" lrx="503" lry="518" rendition="line" xml:id="P1_l16" />
+            <zone points=' 76,519 495,506 496,540 71,549 ' rendition="line" xml:id="P1_l17" />
+            <zone ulx="73" uly="541" lrx="506" lry="565" rendition="line" xml:id="P1_l18" />
+            <zone ulx="77" uly="570" lrx="502" lry="603" rendition="line" xml:id="P1_l19" />
+            <zone ulx="74" uly="597" lrx="501" lry="626" rendition="line" xml:id="P1_l20" />
+            <zone ulx="74" uly="625" lrx="499" lry="654" rendition="line" xml:id="P1_l21" />
+            <zone ulx="73" uly="652" lrx="508" lry="684" rendition="line" xml:id="P1_l22" />
+            <zone ulx="73" uly="683" lrx="511" lry="717" rendition="line" xml:id="P1_l23" />
+            <zone ulx="75" uly="715" lrx="507" lry="746" rendition="line" xml:id="P1_l24" />
+            <zone ulx="78" uly="746" lrx="513" lry="785" rendition="line" xml:id="P1_l25" />
+            <zone ulx="79" uly="774" lrx="509" lry="811" rendition="line" xml:id="P1_l26" />
+            <zone ulx="290" uly="792" lrx="455" lry="817" rendition="line" xml:id="P1_l27" />
+            <!--correzioni e aggiunte laterali-->
+            <zone ulx="16" uly="233" lrx="139" lry="255" rendition="hotspot" xml:id="Pag1_corr1" />
+            <zone ulx="3" uly="468" lrx="63" lry="561" rendition="hotspot" xml:id="Pag1_corr2" />
+            <zone ulx="7" uly="626" lrx="69" lry="653" rendition="hotspot" xml:id="Pag1_corr3" />
+            <zone ulx="7" uly="653" lrx="66" lry="704" rendition="hotspot" xml:id="Pag1_corr4" />
+        </surface>
+
+        <surface> <!--SECONDA PAGINA-->
+            <graphic url='codifica_pag2.png' width='529px' height='821px' xml:id="Pag2" />
+            <zone ulx="23" uly="4" lrx="76" lry="50" rendition="hotspot" xml:id="Pag2_num" />
+            <!--paragrafi-->
+            <zone ulx="21" uly="18" lrx="524" lry="305" rendition="paragraph" xml:id="Pag2_par1" />
+            <zone ulx="15" uly="302" lrx="523" lry="606" rendition="paragraph" xml:id="Pag2_par2" />
+            <zone ulx="3" uly="612" lrx="523" lry="820" rendition="paragraph" xml:id="Pag2_par3" />
+            <!--pericopi-->
+            <zone ulx="21" uly="18" lrx="524" lry="305" xml:id="P2_p6" />
+            <zone points=' 71,305 66,436 145,435 147,402 521,394 522,300 ' xml:id="P2_p7" />
+            <zone ulx="148" uly="395" lrx="483" lry="414" xml:id="P2_p8" />
+            <zone ulx="12" uly="486" lrx="520" lry="614" xml:id="P2_p9" />
+            <zone points=' 7,614 519,608 517,754 191,761 194,802 3,799 ' xml:id="P2_p10" />
+            <zone ulx="197" uly="755" lrx="519" lry="820" xml:id="P2_p11" />
+            <!--linee di testo-->
+            <zone ulx="89" uly="18" lrx="526" lry="63" rendition="line" xml:id="P2_l1" />
+            <zone ulx="95" uly="53" lrx="523" lry="82" rendition="line" xml:id="P2_l2" />
+            <zone ulx="98" uly="76" lrx="522" lry="109" rendition="line" xml:id="P2_l3" />
+            <zone ulx="93" uly="105" lrx="503" lry="135" rendition="line" xml:id="P2_l4" />
+            <zone ulx="94" uly="131" lrx="517" lry="161" rendition="line" xml:id="P2_l5" />
+            <zone ulx="95" uly="153" lrx="527" lry="193" rendition="line" xml:id="P2_l6" />
+            <zone ulx="95" uly="183" lrx="495" lry="218" rendition="line" xml:id="P2_l7" />
+            <zone ulx="89" uly="214" lrx="488" lry="241" rendition="line" xml:id="P2_l8" />
+            <zone ulx="94" uly="233" lrx="518" lry="271" rendition="line" xml:id="P2_l9" />
+            <zone ulx="95" uly="267" lrx="447" lry="301" rendition="line" xml:id="P2_l10" />
+            <zone ulx="101" uly="301" lrx="519" lry="338" rendition="line" xml:id="P2_l11" />
+            <zone ulx="69" uly="334" lrx="525" lry="372" rendition="line" xml:id="P2_l12" />
+            <zone ulx="70" uly="368" lrx="508" lry="397" rendition="line" xml:id="P2_l13" />
+            <zone ulx="72" uly="393" lrx="523" lry="437" rendition="line" xml:id="P2_l14" />
+            <zone ulx="79" uly="435" lrx="508" lry="465" rendition="line" xml:id="P2_l15" />
+            <zone ulx="75" uly="465" lrx="494" lry="491" rendition="line" xml:id="P2_l16" />
+            <zone ulx="67" uly="485" lrx="518" lry="524" rendition="line" xml:id="P2_l17" />
+            <zone ulx="79" uly="520" lrx="519" lry="555" rendition="line" xml:id="P2_l18" />
+            <zone ulx="79" uly="553" lrx="503" lry="581" rendition="line" xml:id="P2_l19" />
+            <zone ulx="71" uly="576" lrx="509" lry="618" rendition="line" xml:id="P2_l20" />
+            <zone ulx="17" uly="611" lrx="512" lry="649" rendition="line" xml:id="P2_l21" />
+            <zone ulx="72" uly="640" lrx="452" lry="667" rendition="line" xml:id="P2_l22" />
+            <zone points=' 80,677 307,658 479,670 482,689 80,706 ' rendition="line" xml:id="P2_l23" />
+            <zone points=' 70,708 67,746 489,718 484,689 287,691 ' rendition="line" xml:id="P2_l24" />
+            <zone points=' 78,743 79,767 501,744 496,714 ' rendition="line" xml:id="P2_l25" />
+            <zone ulx="85" uly="757" lrx="483" lry="789" rendition="line" xml:id="P2_l26" />
+            <zone ulx="313" uly="778" lrx="510" lry="818" rendition="line" xml:id="P2_l27" />
+            <!--correzioni e aggiunte laterali-->
+            <zone ulx="23" uly="91" lrx="94" lry="136" rendition="hotspot" xml:id="Pag2_corr1" />
+            <zone ulx="20" uly="189" lrx="75" lry="217" rendition="hotspot" xml:id="Pag2_corr2" />
+            <zone ulx="23" uly="245" lrx="81" lry="273" rendition="hotspot" xml:id="Pag2_corr3" />
+            <zone ulx="21" uly="273" lrx="95" lry="304" rendition="hotspot" xml:id="Pag2_corr4" />
+            <zone ulx="11" uly="525" lrx="66" lry="566" rendition="hotspot" xml:id="Pag2_corr5" />
+            <zone ulx="21" uly="610" lrx="104" lry="654" rendition="hotspot" xml:id="Pag2_corr6" />
+            <zone ulx="6" uly="734" lrx="72" lry="778" rendition="hotspot" xml:id="Pag2_corr7" />
+        </surface>
+    </facsimile>
+   
+    <text xml:lang="fr" xml:id="Pericope3" subtype="manuscript">  <!--Contiene la codifica del testo originale francese-->
+        <body xml:lang="fr" source="#Bouquet-Engler2002">
+            <!--Inizio codifica della prima pagina-->
+            <pb n="1" facs="#Pag1" />
+            <!--Numero della prima pagina scritto a mano in alto a sx-->
+            <fw type="pageNum" xml:id="PageNum-1" place="top left" facs="#Pag1_num"> 1. </fw>
+
+            <!--PAGINA 1 PARAGRAFO 1-->
+            <div facs="#Pag1_par1" n="1">
+
+                <!--PERICOPE 1-->
+                <ab type="pericope" n="1" xml:id="Per1" facs="#P1_p1">
+                    <lb n="1" facs="#P1_l1" />
+                        Les <term ref="#objets">objets</term> considérés dans nos
+                        <seg corresp="#first-conf #second-conf"><choice resp="#EF"><abbr>2</abbr><expan>deux</expan></choice>
+                        premières
+                    <lb n="2" facs="#P1_l2" />
+                        conférences</seg> nous donnent, dès à présent, si nous
+                    <lb n="3" facs="#P1_l3" />
+                        les groupons <choice resp="#EF"><abbr type="contraction">ds</abbr><expan>dans</expan></choice>
+                        notre esprit, un aperçu
+                     <lb n="4" facs="#P1_l4" />
+                        suffisant: <retrace>s</retrace>ur ce qu'est la <emph rend="underline"><term ref="#condition">condition</term></emph>
+                    <lb n="5" facs="#P1_l5" />
+                        <emph rend="underline">de <term ref="#langue_temps">la langue
+                        <subst><add place="above">dans</add><del rend="overstrike">devant</del></subst>
+                        le <retrace>T</retrace>emps</term></emph>, devant le
+                    <lb n="6" facs="#P1_l6" />
+                        <term ref="#facteur">facteur</term> <emph rend="underline"><term ref="#temps">Temps</term></emph>;
+                </ab>
+
+                <!--PERICOPE 2-->
+                <ab type="pericope" n="2" xml:id="Per2" facs="#P1_p2">
+                        <add place="above">ils <choice resp="#EF"> <abbr type="contraction">ns</abbr><expan>nous</expan></choice>
+                        <unclear>donnent</unclear></add>
+                        une <term ref="#idee">idée</term> des <term ref="#cond_univ">conditions
+                    <lb n="7" facs="#P1_l7" />
+                        universelles</term> où se trouve placé <del rend="overstrike">le langage, </del>
+                    <lb n="8" facs="#P1_l8" />
+                        <add place="left margin and above" facs="#Pag1_corr1"> un <term ref="#idiome">idiome</term>
+                        <choice resp="#EF"> <abbr type="suspension">quelc</abbr> <expan>quelconque</expan> </choice> </add>
+                        en présence du fait 
+                        <q> "qu'un<gap extent="1" unit="character" reason="cancelled" />
+                        certain <emph rend="underline"> inter </emph>
+                    <lb break="no" n="9" facs="#P1_l9" />
+                        <emph rend="underline">valle de <term ref="#temps">temps</term> s'écoule"</emph> </q>;
+                        <pc>-</pc> et nous nous
+                    <lb n="10" facs="#P1_l10" />
+                        sommes appliqué à ne faire intervenir,
+                    <lb n="11" facs="#P1_l11" />
+                        jusqu'à présent, aucun autre 
+                        <term ref="#facteur">facteur</term> <gap reason="cancelled" extent="1" unit="word" />
+                    <lb n="12" facs="#P1_l12" />
+                        <term ref="#fondamental">fondamental</term> que ce <term ref="#facteur">facteur</term>
+                        de <add place="above">la</add> <emph rend="underline"><term ref="#duree"> durée</term></emph> 
+                        <subst> <add><pc>,</pc></add><del rend="overtyped"><pc>.</pc></del></subst>
+                    <lb n="13" facs="#P1_l13" />
+                        de la <emph rend="underline"><term ref="#dist_cron"> distance chronologique </term></emph> .
+                </ab>
+            </div>
+
+            <!--PAGINA 1 PARAGRAFO 2-->
+            <div facs="#Pag1_par2" n="2">
+
+                <!--PERICOPE 3-->
+                <ab type="pericope" n="3" xml:id="Per3" facs="#P1_p3">
+                    <lb n="14" facs="#P1_l14" />
+                        S'il fallait récapituler les princi
+                    <lb break="no" n="15" facs="#P1_l15" />
+                        paux <term ref="#pointsdevue">points de vue</term> où nous avons été
+                    <lb n="16" facs="#P1_l16" />
+                        conduits <metamark function="insert" rend="vertical-arrow" target="#insert2"></metamark>
+                        <!--aggiunta a sx-->
+                        <add place="left margin" xml:id="insert2" facs="#Pag1_corr2">
+                            <choice resp="#EF"> <abbr type="contraction">ds</abbr><expan>dans</expan></choice>
+                            cette
+                            <lb />
+                            <choice resp="#EF"><abbr><num type="ordinal">1°</num></abbr><expan>première</expan></choice>
+                            <lb />
+                            <term ref="#etude">étude</term>
+                        </add>
+                        <!--fine aggiunta-->
+                        ,j'insisterais certainement en
+                    <lb break="no" n="17" facs="#P1_l17" />
+                        core une fois sur l'impossibilité <add place="above"><term ref="#radicale">radicale</term></add>
+                        , non <pc force="weak">-</pc>
+                    <lb n="18" facs="#P1_l18" />
+                        seulement de toute rupture, mais de tout
+                    <lb n="19" facs="#P1_l19" />
+                        soubresaut, dans la <term ref="#tradition_langue">tradition continue
+                    <lb n="20" facs="#P1_l20" />
+                        de la langue</term> depuis le
+                        <choice resp="#EF"><abbr>1er</abbr><expan>premier</expan></choice> jour
+                        <add place="above">mê<unclear resp="#EF" cert="high">me </unclear></add> où une
+                    <lb n="21" facs="#P1_l21" />
+                        <term ref="#societe_hum"><subst><del rend="overstrike"><gap reason="cancelled" extent="1" unit="word" /></del>
+                        <add place="left margin" facs="#Pag1_corr3">société</add></subst> humaine </term>
+                        a <term ref="#parle">parlé</term>; 
+                </ab>
+
+                <!--PERICOPE 4-->
+                <ab type="pericope" n="4" xml:id="Per4" facs="#P1_p4">
+                        <pc>-</pc> sur ces
+                    <lb n="22" facs="#P1_l22" />
+                        <add place="left margin" facs="#Pag1_corr4">
+                            <choice resp="#EF"><abbr type="contraction">diffent</abbr><expan>différents</expan></choice>
+                            <lb />
+                            points
+                        </add>
+                        <subst><del rend="overstrike"><unclear resp="#LT" cert="medium">faits</unclear>
+                        <gap reason="cancelled" extent="2" unit="char"/></del><add place="above"><unclear>immédiatement</unclear>
+                        </add></subst>
+                        évidents, qu'aucune <term ref="#langue">langue</term>
+                        <choice resp="#EF"><sic>nepeut</sic><corr>ne peut</corr></choice>
+                    <lb n="23" facs="#P1_l23" />
+                        <emph rend="underline"><term ref="#mourir">mourir</term></emph>
+                        , si elle n'est violemment supprimée;
+                </ab>
+
+                <!--PERICOPE 5-->
+                <ab type="pericope" n="5" xml:id="Per5" facs="#P1_p5">
+                    <lb n="24" facs="#P1_l24" />
+                        <add place="left margin"><pc force="weak">-</pc></add>
+                        qu'aucune n'a <del rend="overstrike"><gap reason="cancelled" extent="2" unit="word" /></del>
+                        une <term ref="#viellesse">vieil
+                    <lb break="no" n="25" facs="#P1_l25" />
+                        lesse</term>
+                        , et qu'aucune n'a une <term ref="#enfance">enfance</term>
+                        , qu'enfin
+                    <lb n="26" facs="#P1_l26" />
+                        aucune <term ref="#langue">langue</term> nouvelle ne peut jamais
+                        <emph rend="underline"><term ref="#naitre">naître</term></emph>
+                    <lb n="27" facs="#P1_l27" />
+                        sous le <gap extent="1" unit="character" reason="cancelled" />
+                        <choice resp="#EF"><sic>S</sic><corr>s</corr></choice>oleil;
+                </ab>
+            </div>
+
+            <!--Fine prima pagina-->
+
+            <!--Inizio della seconda pagina-->
+            <pb n="2" facs="#Pag2" />
+            <!--Numero della seconda pagina scritto a mano in alto a sx-->
+            <fw type="pageNum" xml:id="PageNum-2" place="top-left" facs="#Pag2_num"> 2 </fw>
+
+            <!--PAGINA 2 PARAGRAFO 1-->
+            <div facs="#Pag2_par1" n="3">
+
+                <!--PERICOPE 6-->
+                <ab type="pericope" n="6" xml:id="Per6" facs="#P2_p6">
+                    <lb n="1" facs="#P2_l1" />
+                        que si on supprime <subst><add place="above">la </add><del rend="overstrike">une</del></subst>
+                        <term ref="#langue">langue</term> d'un
+                    <lb n="2" facs="#P2_l2" />
+                        <term ref="#peuple">peuple</term> en lui <gap reason="cancelled" extent="1" unit="word" />
+                        en imposant une
+                    <lb n="3" facs="#P2_l3" />
+                        autre, cette autre <term ref="#langue">langue</term>
+                        <subst><add place="above"> se <unclear resp="#EF">trouve être </unclear><gap reason="cancelled" extent="1" unit="word" /></add>
+                        <del rend="overstrike"><unclear resp="#LT" cert="high">est toute aussi</unclear></del></subst>
+                    <lb n="4" facs="#P2_l4" />
+                        <add place="left margin" facs="#Pag2_corr1"><term ref="#naturellement">naturellement</term>
+                        <lb />
+                        <unclear resp="#EF">juste aussi</unclear></add>
+                        ancienne que celle qui vient d'être
+                    <lb n="5" facs="#P2_l5" />
+                        abolie, de manière qu'il ne peut jamais
+                    <lb n="6" facs="#P2_l6" />
+                        y avoir <add place="above"><choice resp="#EF"><sic>surleglobe</sic><corr>sur le globe</corr></choice></add>
+                        que <term ref="#continuation">continuation</term>
+                        d'un <term ref="#idiome">idiome</term>
+                    <lb n="7" facs="#P2_l7" />
+                        <add place="left margin" facs="#Pag2_corr2"> <choice resp="#EF"><abbr type="contraction">existt</abbr><expan>existant</expan></choice></add>
+                        <subst><add place="above">a veillel </add><del rend="overstrike"><unclear resp="#LT">anterieur</unclear></del></subst>
+                        , et toujours <surplus reason="repeated">et toujours</surplus>
+                    <lb n="8" facs="#P2_l8" />
+                        <del rend="overstrike"> <unclear resp="#LT" cert="medium"> anterieur </unclear></del>
+                        <add place="above"><del rend="overstrike"><sic>existt</sic><corr>existant</corr></del></add>
+                        <del rend="overstrike"><unclear resp="#LT" cert="medium"> jusqu'à la nuit des ajes </unclear></del>
+                    <lb n="9" facs="#P2_l9" />
+                        <add place="left margin" facs="#Pag2_corr3"><unclear resp="#EF">existant</unclear></add>
+                        <del rend="overstrike"><unclear resp="#LT" cert="medium"> prehistoriques</unclear></del>
+                        la veille, jusqu'à <add place="above">qu'on arrive à</add> la nuit
+                    <lb n="10" facs="#P2_l10" />
+                        <add place="left margin" facs="#Pag2_corr4">insondable</add>
+                        des âges <subst><add place="above">décidément</add><del rend="overstrike"><gap extent="1" unit="word" reason="cancelled" /></del></subst>
+                        <term ref="#antehistoriques">antéhistoriques</term>.
+                </ab>
+            </div>
+
+            <!--PAGINA 2 PARAGRAFO 2-->
+            <div facs="#Pag2_par2" n="4">
+                <!--PERICOPE 7-->
+                <ab type="pericope" n="7" xml:id="Per7" facs="#P2_p7">
+                    <lb n="11" facs="#P2_l11" />
+                        Je rappellerais <subst><del rend="overstrike"><unclear cert="low" resp="#LL">en le comd him</unclear></del>
+                        <add place="above">surtout</add></subst>,
+                        <choice resp="#EF"><sic>T</sic><corr>t</corr></choice>oujours
+                    <lb n="12" facs="#P2_l12" />
+                        dans le même ordre d'idées, qu'il n'arrive
+                    <lb n="13" facs="#P2_l13" />
+                        jamais qu'une
+                        <emph rend="underline"><term ref="#langue">langue</term> succède à une</emph>
+                    <lb n="14" facs="#P2_l14" />
+                        <emph rend="underline">autre</emph>;
+                </ab>
+
+                <!--PERICOPE 8-->
+                <ab type="pericope" n="8" xml:id="Per8" facs="#P2_p8">
+                        <subst><add place="above">par
+                        <choice resp="#EF"><abbr>ex.</abbr><expan>ex<ex>emple</ex></expan></choice>
+                        que le <emph rend="underline"><lang>français</lang></emph>
+                        succède au <emph rend="underline"><lang>latin</lang></emph>; </add>
+                        <del rend="overstrike"><unclear cert="medium" resp="#LL">par exemple que le francais succède</unclear></del></subst>
+                    <lb n="15" facs="#P2_l15" />
+                        <del rend="overstrike"><unclear cert="medium" resp="#LL">au latin; mais que cette succession de 
+                        <num type="cardinal">2</num></unclear></del>
+                    <lb n="16" facs="#P2_l16" />
+                        <del rend="overstrike"><unclear cert="medium" resp="#LL">entitès conventionelles mais que cette </unclear></del>
+                </ab>
+
+                <!--PERICOPE 9-->
+                <ab type="pericope" n="9" xml:id="Per9" facs="#P2_p9">
+                    <lb n="17" facs="#P2_l17" />
+                        mais que cette <term ref="#succession">succession</term> imaginaire
+                        <add place="above"> de <choice resp="#EF"><abbr>2</abbr><expan>deux</expan></choice>
+                        <term ref="#choses">choses</term> </add> vient
+                    <lb n="18" facs="#P2_l18" />
+                        <add place="left margin" facs="#Pag2_corr5"><choice resp="#EF"><abbr type="contraction">uniq=t</abbr>
+                        <expan>uniq<ex>uemen</ex>t</expan></choice></add>
+                        de ce qu<gap extent="1" unit="character" rend="cancelled" />
+                        <subst><del rend="overstrike"> nous donnons </del><add place="above">'il nous plaît de donner </add></subst>
+                        deux <term ref="#noms">noms</term> successifs
+                    <lb n="19" facs="#P2_l19" />
+                        au même <term ref="#idiome">idiome</term>, et par conséquent d'en
+                    <lb n="20" facs="#P2_l20" />
+                        faire <term ref="#arbitrairement"><choice resp="#EF"><sic>arbitraint</sic><corr>arbitrairement</corr></choice></term>
+                        <choice resp="#EF"><abbr>2</abbr><expan>deux</expan></choice>
+                        <term ref="#choses">choses</term><pc force="weak">.</pc>
+                        séparées <choice resp="#EF"><abbr type="contraction">ds</abbr><expan>dans</expan></choice>
+                        le <term ref="#temps">temps</term>.
+                </ab>
+            </div>
+
+            <!--PAGINA 2 PARAGRAFO 3-->
+            <div facs="#Pag2_par3" n="5">
+
+                <!--PERICOPE 10-->
+                <ab type="pericope" n="10" xml:id="Per10" facs="#P2_p10">
+                    <lb n="21" facs="#P2_l21" />
+                        <add place="left margin" facs="#Pag2_corr6">Sans doute,</add>
+                        <choice resp="#EF"><sic>L</sic><corr>l</corr></choice>'influence 
+                        qu'<choice resp="#EF"><sic>exerce<gap extent="1" unit="character" rend="cancelled" /></sic><corr>exercent</corr></choice>
+                        sur notre <term ref="#esprit">esprit</term>
+                    <lb n="22" facs="#P2_l22" />
+                        deux <term ref="#noms">noms</term> successifs de ce genre
+                        <unclear resp="#EF">est</unclear><gap extent="2" unit="character" rend="cancelled" />
+                    <lb n="23" facs="#P2_l23" />
+                        tellement décisive et
+                        <add place="above"><choice resp="#EF"><corr>tellement</corr><sic>tellemn</sic></choice>
+                        <unclear resp="#EF">inébranlable</unclear>,</add>
+                        indéracinable, que
+                    <lb n="24" facs="#P2_l24" />
+                        je ne songe pas,
+                        <subst><del rend="overstrike"><gap extent="3" unit="words" reason="cancelled" /></del>
+                        <add place="above">je <choice resp="#EF"><abbr type="contraction">vs</abbr><expan>vous</expan></choice>
+                        l'avoue <unclear resp="#EF">franchement</unclear>, à </add></subst>
+                        détruire
+                    <lb n="25" facs="#P2_l25" />
+                        <add place="left margin" facs="#Pag2_corr7">votre <lb /> préjugé</add>
+                        en quelques jours par deux ou trois
+                        <subst><add><unclear reason="illegible" resp="#EF">remarques</unclear></add>
+                        <del rend="overstrike"><gap extent="1" unit="words" reason="cancelled" /></del></subst>
+                    <lb break="no" n="26" facs="#P2_l26" />
+                        <del rend="overstrike"><gap extent="1" unit="words" reason="cancelled" /> </del>;
+                        <subst><del rend="overstrike"><unclear reason="cancelled" resp="#LL" cert="medium">le linguiste</unclear></del>
+                        <add place="above"> ma part.</add></subst>
+                </ab>
+
+                <!--PERICOPE 11-->
+                <ab type="pericope" n="11" xml:id="Per11" facs="#P2_p11">
+                        <retrace>C</retrace>e n'est
+                        <metamark function="insert" rend="vertical-line" target="#insert1"></metamark>
+                        que par
+                    <lb n="27" facs="#P2_l27" />
+                        <seg xml:id="insert1"><choice resp="#EF"><sic>T</sic><corr>t</corr></choice>ous 
+                        les <unclear reason="illegible" resp="#EF" cert="high"><term ref="#linguistes">linguistes</term>
+                        le savent </unclear></seg>
+                </ab>
+            </div>
+
+            <!--Traduzione in italiano -->
+
+            <div type="traduzione" source="#Fadda2006" resp="#EF">
+                <ab xml:id="Pericope1_ITA" corresp="#Per1" xml:lang="it">
+                    Gli oggetti considerati nelle nostre due prime conferenze ci offrono, fin da ora, se li mettiamo insieme nella nostra mente, un panorama sufficiente 
+                    di ciò che è la condizione della lingua nel Tempo, davanti al fattore Tempo;
+                </ab>
+
+                <ab xml:id="Pericope2_ITA" corresp="#Per2" xml:lang="it">
+                    essi ci danno un'idea delle condizioni universali in cui si trova posto un idioma qualunque in presenza del fatto “che un certo 
+                    intervallo di tempo trascorre” – e noi ci siamo applicati a non fare intervenire, fino ad ora, nessun altro fattore fondamentale oltre al fattore della 
+                    durata, della distanza cronologica.
+                </ab>
+
+                <ab xml:id="Pericope3_ITA" corresp="#Per3" xml:lang="it">
+                    Se si dovessero ricapitolare le principali prospettive da cui ci siamo mossi in questo primo studio, insisterei certamente ancora una volta sull'impossibilità radicale, non solamente di ogni
+                    rottura, ma di ogni salto, nella tradizione continua della lingua dal primo giorno in cui una società umana ha parlato;
+                </ab>
+
+                <ab xml:id="Pericope4_ITA" corresp="#Per4" xml:lang="it">
+                    su questi diversi punti immediatamente evidenti, che nessuna lingua può
+                    morire, se non è soppressa violentemente;
+                </ab>
+
+                <ab xml:id="Pericope5_ITA" corresp="#Per5" xml:lang="it">
+                    che nessuna ha una vecchiaia, e nessuna ha un'infanzia, che infine nessuna lingua nuova può mai nascere sotto il sole;
+                </ab>
+
+                <ab xml:id="Pericope6_ITA" corresp="#Per6" xml:lang="it">
+                    che se si sopprime la lingua di un popolo imponendogliene un'altra, quest'ultima si trova ad essere, naturalmente, altrettanto antica di
+                    quella che è appena stata abolita, in modo che non può mai esserci sul pianeta che continuazione di una lingua esistente il giorno prima, e sempre esistente il
+                    giorno prima, fino a dove arriva la notte insondabile delle età assolutamente preistoriche.
+                </ab>
+
+                <ab xml:id="Pericope7_ITA" corresp="#Per7" xml:lang="it">
+                    Ricorderò soprattutto, sempre nello stesso ordine di idee, che non succede mai che una lingua succeda a un'altra;
+                </ab>
+
+                <ab xml:id="Pericope8_ITA" corresp="#Per8" xml:lang="it">
+                    per esempio che il francese succeda al latino;
+                </ab>
+
+                <ab xml:id="Pericope9_ITA" corresp="#Per9" xml:lang="it">
+                    ma che questa successione immaginaria di due cose viene unicamente dal fatto che ci aggrada dare due nomi successivi allo stesso
+                    idioma, e di conseguenza di farne arbitrariamente due cose separate nel tempo.
+                </ab>
+
+                <ab xml:id="Pericope10_ITA" corresp="#Per10" xml:lang="it">
+                    Senza dubbio, l'influenza che esercitano sulla nostra mente due nomi successivi di questo genere è talmente decisiva e talmente irremovibile,
+                    inestirpabile, che non ho la minima aspettativa nemmeno, ve lo confesso con franchezza, di distruggere il vostro pregiudizio in qualche giorno
+                    con due o tre osservazioni mie.
+                </ab>
+
+                <ab xml:id="Pericope11_ITA" corresp="#Per11" xml:lang="it">
+                    È solo – tutti i linguisti lo sanno – attraverso l'osservazione particolarmente prolungata di ciò che la lingua è di
+                    testo in testo, di cinquant'anni in cinquant'anni, o di vent'anni in vent'anni, che si arriva finalmente a
+                    convincersi profondamente, definitivamente, dell'assoluta vanità e inanità di una denominazione
+                    differente come latino o francese.
+                </ab>
+            </div>
+
+        </body>
+
+        <back> <!--Appendici al testo, tra cui terminologia, bibliografia e riferimenti agli eventi citati-->
+            <div type="addList">
+
+                <!--Terminologia-->
+                <list type="terminology" rend="numbered">
+
+                    <label>
+                        <term xml:id="objets" xml:lang="fr">Objets</term>
+                        <term ref="#objets" xml:lang="it">Oggetti</term>
+                    </label>
+                    <item n="1">
+                        <gloss target="objets" source="">
+                        OGGETTO: l'argomento, che sia una persona o una cosa, concreta o astratta, di cui si parla.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="condition" xml:lang="fr">Condition</term>
+                        <term ref="#condition" xml:lang="it">Condizione</term>
+                    </label>
+                    <item n="2">
+                        <gloss target="condition" source="https://www.treccani.it/vocabolario/condizione/">
+                        CONDIZIONE: situazione, natura o stato d'essere di una certa cosa.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="langue_temps" xml:lang="fr">La langue dans le Temps</term>
+                        <term ref="#langue_temps" xml:lang="it">La lingua nel Tempo</term>
+                    </label>
+                    <item n="3">
+                        <gloss target="#langue_temps" source="">
+                        LA LINGUA NEL TEMPO: studio e la valutazione dei fatti linguistici considerati secondo il loro divenire nel tempo.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="facteur" xml:lang="fr">Facteur</term>
+                        <term ref="#facteur" xml:lang="it">Fattore</term>
+                    </label>
+                    <item n="4">
+                        <gloss target="#facteur" source="https://www.treccani.it/vocabolario/fattore">
+                        FATTORE: elemento che può esercitare un’azione positiva o negativa sulla condotta di una serie di azioni.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="temps" xml:lang="fr">Temps</term>
+                        <term ref="#temps" xml:lang="it">Tempo</term>
+                    </label>
+                    <item n="5">
+                        <gloss target="#temps" source="https://www.treccani.it/enciclopedia/tempo/">
+                        TEMPO: intuizione e rappresentazione della modalità con cui i singoli eventi si susseguono e sono in rapporto l’uno con l’altro 
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="idee" xml:lang="fr">Idée</term>
+                        <term ref="#idee" xml:lang="it">Idea</term>
+                    </label>
+                    <item n="6">
+                        <gloss target="#idee" source="https://www.treccani.it/enciclopedia/tempo/">
+                        IDEA: ogni singolo contenuto del pensiero, ogni entità mentale, e più in particolare, la rappresentazione di un oggetto alla mente, la nozione che la mente si forma o riceve di una cosa reale o immaginaria.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="cond_univ" xml:lang="fr">Conditions universelles</term>
+                        <term ref="#cond_univ" xml:lang="it">Condizioni universali</term>
+                    </label>
+                    <item n="7">
+                        <gloss target="#cond_univ" source="">
+                        CONDIZIONI UNIVERSALI: condizione generali, condivise da tutti. 
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="idiome" xml:lang="fr">Idiome</term>
+                        <term ref="#idiome" xml:lang="it">Idioma</term>
+                    </label>
+                    <item n="8">
+                        <gloss target="#idiome" source="https://www.treccani.it/enciclopedia/idioma/">
+                        IDIOMA: lingua propria di una nazione. In particolare, in linguistica, il conglomerato di sistemi che coesistono nell'ambito di una data comunità storico-sociologica.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="fondamental" xml:lang="fr">Fondamental</term>
+                        <term ref="#fondamental" xml:lang="it">Fondamentale</term>
+                    </label>
+
+                    <item n="9">
+                        <gloss target="#fondamental" source="https://www.treccani.it/enciclopedia/Fondamentale/">
+                        FONDAMENTALE: che costituisce il fondamento, la base di qualche cosa, o serve di sostegno.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="duree" xml:lang="fr">Durée</term>
+                        <term ref="#duree" xml:lang="it">Durata</term>
+                    </label>
+                    <item n="10">
+                        <gloss target="#duree" source="https://www.treccani.it/enciclopedia/Durata/">
+                        DURATA: intervallo di tempo in cui si svolge, dal suo principio alla sua fine, un determinato fatto o fenomeno.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="dist_cron" xml:lang="fr">Distance chronologique</term>
+                        <term ref="#dist_cron" xml:lang="it">Distanza cronologica</term>
+                    </label>
+                    <item n="11">
+                        <gloss target="#dist_cron" source="">
+                        DISTANZA CRONOLOGICA: distanza temporale tra due eventi.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="langue" xml:lang="fr">Langue</term>
+                        <term ref="#langue" xml:lang="it">Lingua</term>
+                    </label>
+                    <item n="12">
+                        <gloss target="#langue" source="https://www.treccani.it/enciclopedia/Lingua/">
+                        LINGUA: il sistema o la forma storicamente determinata attraverso il quale gli appartenenti a una comunità si esprimono e comunicano tra loro attraverso l'uso di un determinato linguaggio, ovvero un insieme di segni scritti (simboli) e/o parlati (suoni).
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="succession" xml:lang="fr">Succession</term>
+                        <term ref="#succession" xml:lang="it">Successione</term>
+                    </label>
+                    <item n="13">
+                        <gloss target="#succession" source="">
+                        SUCCESSIONE: il succedere ad altri, cioè il subentrare, il prendere il posto (in questo caso) di un'altra lingua.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="choses" xml:lang="fr">Choses</term>
+                        <term ref="#choses" xml:lang="it">Cose</term>
+                    </label>
+                    <item n="14">
+                        <gloss target="#choses" source="">
+                        COSE: il nome più indeterminato e più comprensivo, col quale si indica, in modo generico, tutto quanto esiste, nella realtà o nell'immaginazione, di concreto o di astratto, di materiale o d'ideale.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="arbitrariement" xml:lang="fr">Arbitrariement</term>
+                        <term ref="#arbitrariement" xml:lang="it">Arbitrariamente</term>
+                    </label>
+                    <item n="15">
+                        <gloss target="#arbitrariement" source="">
+                        ARBITRARIAMENTE: in modo arbitrario, di propria iniziativa, senza autorizzazione.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="linguistes" xml:lang="fr">Linguistes</term>
+                        <term ref="#linguistes" xml:lang="it">Linguisti</term>
+                    </label>
+                    <item n="16">
+                        <gloss target="#linguistes" source="">
+                        LINGUISTI: coloro che si dedicano allo studio delle lingue (o anche soltanto, o in modo specifico, della propria lingua), soprattutto da un punto di vista teorico, sistematico e storico.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="tradition_langue" xml:lang="fr">Tradition continue de la langue</term>
+                        <term ref="#tradition_langue" xml:lang="it">Tradizione continua della lingua</term>
+                    </label>
+                    <item n="17">
+                        <gloss target="#tradition_langue" source="">
+                            TRADIZIONE CONTINUA DELLA LINGUA: elementi di una lingua precedente che rimangono all'interno della lingua successiva.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="pointsdevue" xml:lang="fr">Points de vue</term>
+                        <term ref="#pointsdevue" xml:lang="it">prospettive</term>
+                    </label>
+                    <item n="18">
+                        <gloss target="#pointsdevue" source="https://www.treccani.it/vocabolario/vista/#:~:text=Punto%20di%20v.%2C%20nella%20prospettiva,due%20diversi%20punti%20di%20vista).">
+                            PROSPETTIVE: i punti di vista, in questo caso il modo soggettivo di vedere i fatti, le situazioni e i problemi, e quindi di valutarli.
+                        </gloss> 
+                    </item>
+
+                    <label>
+                        <term xml:id="etude" xml:lang="fr">Etude</term>
+                        <term ref="#etude" xml:lang="it">Studio</term>
+                    </label>
+                    <item n="19">
+                        <gloss target="#etude" source="https://dizionari.repubblica.it/Italiano/S/studio.html">
+                            STUDIO: ricerca, indagine approfondita su un argomento specifico, che può essere ad esempio una lingua.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="radicale" xml:lang="fr">Radicale</term>
+                        <term ref="#radicale" xml:lang="it">Radicale</term>
+                    </label>
+                    <item n="20">
+                        <gloss target="#radicale" source="">
+                            RADICALE: che agisce in profondità e influisce in modo sostanziale.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="societe_hum" xml:lang="fr">Société humaine</term>
+                        <term ref="#societe_hum" xml:lang="it">Società umana</term>
+                    </label>
+                    <item n="21">
+                        <gloss target="#societe_hum" source="">
+                            SOCIETA' UMANA: l'insieme degli uomini organizzato sulla base di un sistema più o meno strutturato di rapporti naturali, economici, culturali o politici.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="parle" xml:lang="fr">Parlè</term>
+                        <term ref="#parle" xml:lang="it">parlare</term>
+                    </label>
+                    <item n="22">
+                        <gloss target="#parle" source="https://www.treccani.it/vocabolario/parlare">
+                            PARLARE: pronunciare suoni articolati, dire delle parole, o in senso più ampio esprimere pensieri e sentimenti per mezzo del linguaggio.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="noms" xml:lang="fr">Noms</term>
+                        <term ref="#noms" xml:lang="it">nomi</term>
+                    </label>
+                    <item n="23">
+                        <gloss target="#noms" source="https://www.treccani.it/enciclopedia/nome">
+                            NOME: appellativo che designa una data entità.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="esprit" xml:lang="fr">Esprit</term>
+                        <term ref="#esprit" xml:lang="it">Mente</term>
+                    </label>
+                    <item n="24">
+                        <gloss target="#esprit" source="https://www.treccani.it/enciclopedia/mente">
+                            MENTE: il complesso delle facoltà umane che più specificamente si riferiscono al pensiero, e in particolare quelle intellettive, percettive, mnemoniche, intuitive e volitive.
+                        </gloss>
+                    </item>      
+                    
+                    <label>
+                        <term xml:id="mourir" xml:lang="fr">Mourir</term>
+                        <term ref="#mourir" xml:lang="it">Morire</term>
+                    </label>
+                    <item n="25">
+                        <gloss target="#mourir" source="https://www.treccani.it/enciclopedia/morire">
+                            MORIRE: nel caso della lingua, cessare di esistere, uscire dall’uso, estinguersi.
+                        </gloss>
+                    </item> 
+
+                    <label>
+                        <term xml:id="vieillesse" xml:lang="fr">Vieillesse</term>
+                        <term ref="#vieillesse" xml:lang="it">Vecchiaia</term>
+                    </label>
+                    <item n="26">
+                        <gloss target="#vieillesse" source="https://www.treccani.it/vocabolario/vecchiaia">
+                            VECCHIAIA: età più avanzata segnata da un progressivo indebolimento.
+                        </gloss>
+                    </item> 
+
+                    <label>
+                        <term xml:id="enfance" xml:lang="fr">Enface</term>
+                        <term ref="#enfance" xml:lang="it">Infanzia</term>
+                    </label>
+                    <item n="27">
+                        <gloss target="#enfance" source="">
+                            INFANZIA: i tempi iniziali di uno sviluppo, della formazione di qualcosa.
+                        </gloss>
+                    </item> 
+
+                    <label>
+                        <term xml:id="naitre" xml:lang="fr">Naître</term>
+                        <term ref="#naitre" xml:lang="it">Nascere</term>
+                    </label>
+                    <item n="28">
+                        <gloss target="#naitre" source="https://www.treccani.it/vocabolario/nascere">
+                            NASCERE: avere inizio, avere origine, per una lingua iniziare ad essere utilizzata e riconosciuta.
+                        </gloss>
+                    </item> 
+
+                    <label>
+                        <term xml:id="peuple" xml:lang="fr">Peuple</term>
+                        <term ref="#peuple" xml:lang="it">Popolo</term>
+                    </label>
+                    <item n="29">
+                        <gloss target="#peuple" source="https://www.treccani.it/vocabolario/popolo1">
+                            POPOLO: complesso degli individui di uno stesso paese che hanno in comune origine, lingua, tradizioni, istituti, leggi e ordinamenti.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="naturellement" xml:lang="fr">naturellement</term>
+                        <term ref="#naturellement" xml:lang="it"></term>
+                    </label>
+                    <item n="30">
+                        <gloss target="#naturellement" source="">
+                            NATURALMENTE: istintivamente, secondo natura.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="antehistoriques" xml:lang="fr">antéhistoriques</term>
+                        <term ref="#antehistoriques" xml:lang="it">preistorico</term>
+                    </label>
+                    <item n="31">
+                        <gloss target="#antehistoriques" source="">
+                            PREISTORICO: antichissimo, appartenente all'inizio dei tempi.
+                        </gloss>
+                    </item>
+
+                    <label>
+                        <term xml:id="continuation" xml:lang="fr">continuation</term>
+                        <term ref="#continuation" xml:lang="it">continuazione</term>
+                    </label>
+                    <item n="32">
+                        <gloss target="#continuation" source="">
+                            CONTINUAZIONE: la prosecuzione di quanto precede e già esiste.
+                        </gloss>
+                    </item>
+
+                </list>
+
+                <!--bibliografia-->
+                <listBibl xml:id="Prolusioni3_bibl">
+                    <head>Bibliografia</head>
+
+                    <!--Bouquet-Engler2002-->
+                    <bibl xml:id="Bouquet-Engler2002">
+                        <title>Écrits de linguistique générale</title>
+                        <author>
+                            <persName ref="#FDS">
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName xml:id="SB">
+                                <forename>Simon</forename>
+                                <surname>Bouquet</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName xml:id="RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName xml:id="AW">
+                                <forename>Antoinette</forename>
+                                <surname>Weil</surname>
+                            </persName>
+                        </author>
+                        <date when="2002">2002</date>
+                        <publisher>Gallimard</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                        <note> Trascrizione francese del manoscritto </note>
+                    </bibl>
+
+                    <!--E.Fadda 2006-->
+                    <bibl xml:id="Fadda2006">
+                        <title type="main">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <author>
+                            <persName xml:id="EF">
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                        </author>
+                        <date when="2006">2006</date>
+                        <publisher>Bonanno Editore</publisher>
+                        <pubPlace>Acireale - Roma</pubPlace>
+                        <idno type="ISBN">887796276-3</idno>
+                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                        <note> Trascrizione italiana del manoscritto </note>
+                    </bibl>
+                </listBibl>
+
+                <!--Riferimenti agli eventi citati nel testo-->
+                <listEvent>
+                    <event type="conference" n="1" xml:id="first-conf" when="1891-11-06">
+                        <label>Prima conferenza</label>
+                        <desc>Prima conferenza tenuta da Ferdinand de Saussure all'Università di Ginevra</desc>
+                    </event>
+
+                    <event type="conference" n="2" xml:id="second-conf" when="1891-11-10">
+                        <label>Seconda conferenza</label>
+                        <desc>Seconda conferenza tenuta da Ferdinand de Saussure all'Università di Ginevra</desc>
+                    </event>
+                </listEvent>
+
+            </div>
+        </back>
+    </text>
+</TEI>
